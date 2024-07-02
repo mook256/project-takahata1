@@ -1,0 +1,155 @@
+<template>
+    <title>TAKAHATA</title>
+    <!-- Header -->
+    <header class="box-content h-8 w-50 p-4  bg-Slate-50">
+        <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+                <img class="h-8 w-auto" src="/image/ex.png" alt="" />
+            </a>
+            <div class="flex items-center space-x-2">
+                <div class="inline-block align-middle mx-auto max-w-md ">
+                    <h1> Kunanya Srinongnuch </h1>
+                </div>
+                <router-link to="/home/">
+                    <button class="rounded-full bg-gray-200 text-gray-800 px-4 py-2">Home</button>
+                </router-link>
+
+                <a href="https://sites.google.com/view/takahata" target="_blank">
+                    <button class="rounded-full bg-gray-200 text-gray-800 px-4 py-2">Shuttle booking</button>
+                </a>
+                <router-link to="/Notification/">
+                    <button class="rounded-full bg-gray-200 text-gray-800 px-4 py-2">Notification</button>
+                </router-link>
+
+                <router-link to="/">
+                    <button class="rounded-full bg-green-500 text-white px-4 py-2">Logout</button>
+                </router-link>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="bg-sky-500 ">
+        <main class="container mx-auto py-10 bg-Teal-600 ">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-semibold">ระบบแจ้งซ่อม</h2>
+            </div>
+            <div class="container box-border mx-auto max-w-prose  bg-sky-50">
+
+                <!-- Form -->
+                <form class="mx-auto max-w-lg">
+                    <!-- Select Category -->
+                    <div>
+                        <label for="category" class="block mb-2 text-2xl">Topic</label>
+                        <select id="category" name="category"
+                            class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-gray-900 sm:text-sm outline outline-offset-2 outline-white-500"
+                            v-model="category" @change="loadIssues" required>
+                            <option v-for="i in ty1" :key="i.id" :value="i.name">{{ i.name }}</option>
+
+                        </select>
+                    </div>
+
+                    <!-- Select Issue -->
+                    <div class="mt-6" v-if="ty2.length > 0">
+                        <label for="issue" class="block mb-2 text-2xl">Problem</label>
+                        <select id="issue" name="issue"
+                            class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-gray-900 sm:text-sm outline outline-offset-2 outline-white-500"
+                            v-model="issue" required>
+                            <option v-for="j in ty2" :key="j.id">{{ j.name }}</option>
+
+                        </select>
+                    </div>
+
+                    <!-- Explanation -->
+                    <div class="mt-6">
+                        <label for="explanation" class="block mb-2 text-xl">Description</label>
+                        <textarea id="explanation"
+                            class="form-control h-32 w-full border rounded-lg px-4 outline outline-offset-2 outline-white-500"
+                            rows="3" v-model="reason" required></textarea>
+                    </div>
+
+
+
+                    <!-- Buttons -->
+                    <div class="mt-6">
+                        <div class="flex items-center justify-center space-x-2 ">
+
+                        </div>
+                    </div>
+                </form>
+                <!-- Buttons -->
+                <div class="flex items-center justify-center space-x-2 flex-grow">
+
+                    <button @click="save_button" class="rounded-full bg-green-500 text-white px-4 py-2">Submit</button>
+
+                    <router-link to="/home/">
+                        <button class="rounded-full bg-red-600 text-white px-4 py-2">Cancel</button>
+                    </router-link>
+                </div>
+                <div class="mt-6">
+                    <div class="flex items-center justify-center space-x-2 ">
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</template>
+
+<script setup>
+
+
+const ty1 = ref([]);
+const ty2 = ref([]);
+const category = ref();
+const issue = ref();
+const reason = ref();
+import { jwtDecode } from "jwt-decode";
+const token = jwtDecode(useCookie("token").value) //nuxt cookie & jwtDecode nuxt
+
+const fetchData = async () => {
+    try {
+        const response = await $fetch('http://localhost:8080/api/get/typeRepair', { credentials: 'include' });
+        ty1.value = response.results;
+    } catch (error) {
+        console.error('Failed to fetch ty1 data:', error);
+    }
+};
+
+const loadIssues = async () => {
+    try {
+        if (category.value) {
+            const response = await $fetch('http://localhost:8080/api/get/resource', {
+                method: "POST",
+                body: {
+                    type: category.value,
+                },
+                credentials: 'include'
+            });
+            ty2.value = response.results;
+        }
+    } catch (error) {
+        console.error('Failed to fetch ty2 data:', error);
+    }
+};
+
+const save_button = async () => {
+    try {
+        console.log(category.value);
+        console.log(issue.value);
+        console.log(reason.value);
+        console.log(token.name)
+
+    } catch (error) {
+        console.error('Failed to go finish page:', error);
+    }
+
+}
+
+fetchData();
+</script>
+
+<style scoped>
+/* Add any scoped styles here */
+</style>
