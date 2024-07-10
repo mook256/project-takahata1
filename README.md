@@ -35,7 +35,7 @@
 
 
 ### -Notify the repair face
-[![Screenshot-2024-06-20-233305.png](https://i.postimg.cc/g0MmK7PJ/Screenshot-2024-06-20-233305.png)](https://postimg.cc/8Fr2ptcQ)
+[![Screenshot-2024-06-20-233305.png](https://i.postimg.cc/JhbxjwVw/Screenshot-2024-06-20-233305.png)](https://postimg.cc/94QyjnQ1)
 
 
 ##
