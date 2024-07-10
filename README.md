@@ -18,6 +18,7 @@
  (-เพิ่มคนเข้ามาให้) 
  (-สามารถปริ้นไฟล์pdfได้) 
  (-ดูจะจำนวนrepot) 
+ 
 [![Screenshot-2024-06-21-103637.png](https://i.postimg.cc/nr8xGdhb/Screenshot-2024-06-21-103637.png)](https://postimg.cc/WF7x2wZX)
 
 ### -Appearance of additional employees ,edit employee names and delete information
@@ -33,7 +34,7 @@
 [![Screenshot-2024-06-20-234050.png](https://i.postimg.cc/tR5NCpzP/Screenshot-2024-06-20-234050.png)](https://postimg.cc/xqXz6rhT)
 
 ### -Page Report
-[![Screenshot-2024-06-21-104800.png](https://i.postimg.cc/TYzDG3sT/Screenshot-2024-06-21-104800.png)](https://postimg.cc/ZCLRx4ZQ)
+[![Screenshot-2024-06-21-104800.png](https://i.postimg.cc/9FRgb2Nv/Screenshot-2024-06-21-104800.png)](https://postimg.cc/2VYxjsYw)
 
 
 
