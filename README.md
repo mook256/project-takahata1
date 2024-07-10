@@ -9,9 +9,7 @@
 
 
 **-home** 
-#home User
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nr8xGdhb/Screenshot-2024-06-21-103637.png' border='0' alt='Screenshot-2024-06-21-103637'/></a>
-
+#home User[![Screenshot-2024-06-21-103637.png](https://i.postimg.cc/nr8xGdhb/Screenshot-2024-06-21-103637.png)](https://postimg.cc/WF7x2wZX)
 
 ## ใบรับร้อง
 [![F077-DCDC-92-E7-4704-9708-015-BE6-BD7-E64.jpg](https://i.postimg.cc/SKHz6r6c/F077-DCDC-92-E7-4704-9708-015-BE6-BD7-E64.jpg)](https://postimg.cc/mcNDR76r)
