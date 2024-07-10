@@ -27,7 +27,7 @@
 
 
 
-
+### -Edit employee names and delete information
 [![Screenshot-2024-06-11-155913.png](https://i.postimg.cc/BQCbRMTT/Screenshot-2024-06-11-155913.png)](https://postimg.cc/svv3hP0x)
 
 
