@@ -23,29 +23,26 @@
 
 ### -Appearance of additional employees ,edit employee names and delete information
 
-[![Screenshot-2024-06-21-103823.png](https://i.postimg.cc/h4sb1bXY/Screenshot-2024-06-21-103823.png)](https://postimg.cc/5jHCxzq5)
+[![Screenshot-2024-06-21-103823.png](https://i.postimg.cc/tC3JQ4vM/Screenshot-2024-06-21-103823.png)](https://postimg.cc/ppdRKRHf)
 
 ##
 
 
 ### -Edit employee names and delete information
-[![Screenshot-2024-06-21-104325.png](https://i.postimg.cc/CKP1P5Vb/Screenshot-2024-06-21-104325.png)](https://postimg.cc/4KcsnJy3)
+[![Screenshot-2024-06-21-104325.png](https://i.postimg.cc/YCywJc7P/Screenshot-2024-06-21-104325.png)](https://postimg.cc/DSsDXM8Q)
 
 
 ##
 
 
 ### -Notify the repair face
-[![Screenshot-2024-06-20-233305.png](https://i.postimg.cc/JhbxjwVw/Screenshot-2024-06-20-233305.png)](https://postimg.cc/94QyjnQ1)
-
+[![Screenshot-2024-06-20-233045.png](https://i.postimg.cc/ZKnmjKtN/Screenshot-2024-06-20-233045.png)](https://postimg.cc/z3s4GNfD)
 
 ##
 
 
 ### -System request
-[![Screenshot-2024-06-20-234050.png](https://i.postimg.cc/gkg2krnQ/Screenshot-2024-06-20-234050.png)](https://postimg.cc/KRg20G7D)
-
-
+[![Screenshot-2024-06-20-233828.png](https://i.postimg.cc/PJ4mqQrC/Screenshot-2024-06-20-233828.png)](https://postimg.cc/4HYKLtcG)
 
 
 ##
