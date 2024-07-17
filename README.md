@@ -6,7 +6,7 @@
 
 ## หน้าของเว็บไซต์
 ### -Login
-[![Screenshot-2024-06-20-225736.png](https://i.postimg.cc/qRQJ4ck9/Screenshot-2024-06-20-225736.png)](https://postimg.cc/1nnhKqVH)
+[![Screenshot-2024-06-20-225736.png](https://i.postimg.cc/jSg93zTQ/Screenshot-2024-06-20-225736.png)](https://postimg.cc/TKbCp5pp)
 
 ### -Home 
 #หน้า home ของ User , Head , Admin ความแตกต่างของแต่ละบุคคล คือ    
@@ -19,7 +19,7 @@
  (-สามารถปริ้นไฟล์pdfได้) 
  (-ดูจะจำนวนrepot) 
  
-[![Screenshot-2024-06-21-103637.png](https://i.postimg.cc/nr8xGdhb/Screenshot-2024-06-21-103637.png)](https://postimg.cc/WF7x2wZX)
+[![Screenshot-2024-06-21-103637.png](https://i.postimg.cc/ZYwrdjxc/Screenshot-2024-06-21-103637.png)](https://postimg.cc/Z0yBk8gB)
 
 ### -Appearance of additional employees ,edit employee names and delete information
 
